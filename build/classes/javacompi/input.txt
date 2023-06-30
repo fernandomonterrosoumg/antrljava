@@ -1,0 +1,19 @@
+public class Main {
+    public static void main(String[] args) {
+        String names = "Juan Carlos";
+        int edad = 21;
+
+        edad = 123 + edad / 10;
+        System.out.println("edad: " + edad);
+
+        int n = 1;
+        while (n <= 10) {
+            System.out.println(n);
+            n++;
+        }
+
+        int x = 1;
+        x = x + 4;
+        System.out.println(x);
+    }
+}
